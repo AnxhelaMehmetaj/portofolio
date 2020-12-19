@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+          rel="stylesheet"
+  />
+</head>
+<body>
+<div class="spinner-container">
+  <div class="circles">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="hamburger-menu">
+    <div class="line line-1"></div>
+    <div class="line line-2"></div>
+    <div class="line line-3"></div>
+    <span>Close</span>
+  </div>
+  <header class="header">
+    <div class="img-wrapper">
+      <img src="../images/bg.png" />
+    </div>
+    <div class="banner">
+      <h1>Portofolio </h1>
+      <p>Welcome to my website.</p>
+
+    </div>
+  </header>
+
+  <section class="sidebar">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="#" class="menu-link" data-content="Home">Home</a>
+      </li>
+      <li class="menu-item">
+        <a href="#about" class="menu-link" data-content="About Us">About </a>
+      </li>
+      <li class="menu-item">
+        <a href="#work" class="menu-link" data-content="My work">My work</a>
+      </li>
+
+
+    </ul>
+
+  </section>
+
+  <div class="about-us">
+    <div class="section-header">
+      <h1 id="about" class="section-heading">About </h1>
+      <div class="underline"></div>
+    </div>
+
+
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="../images/bg.png" alt="" style="height: 40%; width: 40%">
+        </div>
+
+        <div>
+          <h2 class="about__subtitle" style="font-size: 30px">I'am Anxhela Mehmetaj</h2>
+          <p class="about__text" style="font-size: 25px;margin-left: 20%; margin-right: 20%">
+            A logical and creative thinker who enjoys learning new languages, frameworks and technologies in general. Excited to be part of the future of the technology industry and my outstanding organizational skills will play an essential role to keep code DRY and as-refectored as possible. The satisfaction of solving problems is what drives me to be a better programmer.An entrepreneurial spirit can be utilized for aligning profitable goals when programming. Passionate about travel, the outdoors, films, meeting new people and exploring the world.
+          </p>
+        </div>
+      </div>
+
+
+  </section>
+
+  <section class="team">
+    <div class="section-header">
+      <h1 id="work" class="section-heading">My work</h1>
+      <div class="underline"></div>
+    </div>
+    <div class="cards-wrapper">
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img src="../images/cloud.jpeg" alt="" />
+        </div>
+        <div class="card-info">
+          <h2>Cloud-Technology</h2>
+          <h3></h3>
+
+          <a href="https://web.njit.edu/~am2997/cloud-technology/src/index.html" >READ MORE</a>
+
+        </div>
+      </div>
+
+      <div class="card" data-tilt >
+        <div class="card-img-wrapper">
+          <img src="../images/history.jpg" alt="" />
+        </div>
+        <div class="card-info">
+          <h2>History of the Internet</h2>
+          <a href="https://web.njit.edu/~am2997/HistoryOfInternet/docs/index.html"> READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img src="../images/internetworks.jpg" alt="" />
+        </div>
+        <div class="card-info">
+          <h2>How Internet Works</h2>
+           <a href="https://web.njit.edu/~am2997/HowTheInternetWorks/docs/index.html">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card" data-tilt>
+        <div class="card-img-wrapper">
+          <img src="../images/onlineprivacy.jpeg" />
+        </div>
+        <div class="card-info">
+          <h2>Marketing and Privacy</h2>
+         <a href="https://anxhelamehmetaj.github.io/MarketingAndPrivacy-/src/">READ MORE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="copyright">
+        Copyright &copy; 2020, Anxhela Mehmetaj
+      </p>
+      <div class="social-list" style="font-size: 40px">
+        <a href="#" ><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab  fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="scroll-btn">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+</div>
+
+<script src="script.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+></script>
+<script src="tilt.js"></script>
+</body>
+</html>
